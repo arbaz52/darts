@@ -1,0 +1,12 @@
+[submodule "darts-python-server"]
+	path = darts-python-server
+	url = https://github.com/arbaz52/darts-python-server
+[submodule "darts-angular-app"]
+	path = darts-angular-app
+	url = https://github.com/arbaz52/darts-angular-app
+[submodule "darts-express-server"]
+	path = darts-express-server
+	url = https://github.com/arbaz52/darts-express-server
+[submodule "darts-android-app"]
+	path = darts-android-app
+	url = https://github.com/kanwalgs/darts-android-app
