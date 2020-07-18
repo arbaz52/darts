@@ -5,6 +5,17 @@
 - Wait for authentication emails sent by the ([dartsv0@gmail.com](mailto://dartsv0@gmail.com))
 - Setup your accounts by visiting the links sent in the authentication mails.
 ---
+### How to access:
+- Goto ([darts-fyp.herokuapp.com](http://darts-fyp.herokuapp.com)) and login as admin or authoritative person
+#### How to setup a tier 1 server
+- Register a server on ([darts-fyp.herokuapp.com](http://darts-fyp.herokuapp.com)) by logging in as admin, note the ServerID assigned to the server you created.
+- View the cameras you want the video streams of to be processed by your tier 1 server.
+  - Assign cameras the server you registered.
+- Run the darts-python-server/final_server.py on the machine you want to use as a tier 1 server.
+  - Create a new configuration file for this tier 1 server, and use ([https://darts-web-server.herokuapp.com](https://darts-web-server.herokuapp.com)) as web-server-url.
+  - Use the ServerID assinged to the server as serverId.
+  - That's it. The server will start.
+---
 ### Roles and what they can do
 - Admin 
 > Manage cameras, Manage servers and Add or force logout QRUnits.
